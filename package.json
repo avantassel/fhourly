@@ -1,0 +1,32 @@
+{
+  "name": "fhourly",
+  "version": "1.0.0",
+  "description": "F-Hourly is an app that tells you what you should charge for brewing beer based on packaged amount.",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/avantassel/fhourly"
+  },
+  "bin": {
+    "finterest": "./bin/fhourly.sh"
+  },
+  "keywords": [
+    "Brewing",
+    "Gypsy",
+    "Contract",
+    "Kettle Top"
+  ],
+  "author": "Andrew Van Tassel",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "moment": "^2.24.0",
+    "numeral": "^2.0.6",
+    "prompt": "^1.0.0",
+    "vow": "^0.4.18"
+  }
+}
